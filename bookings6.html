@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Details</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS for booking page */
+        /* You can add styles specific to the booking page here */
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Fancy Hotels</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<section class="booking">
+    <h2>Booking Details</h2>
+    <div class="date-input">
+        <label for="checkinDate">Select Check-in Date:</label>
+        <input type="date" id="checkinDate">
+    </div>
+    <div class="date-input">
+        <label for="checkoutDate">Select Check-out Date:</label>
+        <input type="date" id="checkoutDate">
+    </div>
+    <button onclick="calculateTotalPrice(3200)">Calculate Total </button>
+    <p>Total Price: Rs<span id="totalPrice">0</span></p>
+</section>
+
+
+
+    <!-- You can add more content specific to the booking page here -->
+
+    <footer>
+        <p>&copy; 2023 Fancy Hotels. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

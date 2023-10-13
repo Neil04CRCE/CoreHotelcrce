@@ -1,0 +1,49 @@
+/* Separate CSS file for page-specific styles */
+/* Example styles for the About section */
+.about {
+    background-color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Example styles for the Rooms section */
+.rooms {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.rooms h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.room-card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.room-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.room-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.room-card p {
+    font-size: 1.
